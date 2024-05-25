@@ -1,0 +1,7 @@
+file=open("file1.txt","wb")
+print(file.name)
+print(file.closed)
+print(file.mode)
+print("file is now being closed.. you cannot use the file object")
+file.close()
+print(file.read())

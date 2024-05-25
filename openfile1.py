@@ -1,0 +1,5 @@
+file=open("file1.txt","r")
+print(file.name)
+file.close()
+print(file.closed)
+print(file.mode)

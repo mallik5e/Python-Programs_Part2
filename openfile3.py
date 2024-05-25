@@ -1,0 +1,5 @@
+file=open("file1.txt","w")
+file.write("hello all")
+file.close()
+print("data written into the file")
+print(file.closed)
